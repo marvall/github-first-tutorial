@@ -1,0 +1,14 @@
+.header,
+.footer {
+  weight: 300;
+  height: 200;
+  background-color: peachpuff;
+  display: block;
+}
+
+.content {
+  weight: 300;
+  height: 600;
+  background-color: peru;
+  display: block;
+}
