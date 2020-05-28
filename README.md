@@ -1,2 +1,3 @@
 # github-first-tutorial
-Some Repository
+
+Create this repository exclusively for training. You will not find anything interesting for yourself here.
