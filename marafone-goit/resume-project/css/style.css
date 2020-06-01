@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f7fa;
+  padding: 20px;
+  font-family: Montserrat;
+}
+.wrapper {
+  background-color: #ffffff;
+  display: flex;
+}
+.sidebar {
+  background-color: #1e2939;
+  width: 370px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.my-photo {
+  width: 370px;
+}
+.about-me-conteiner {
+  padding: 110px 90px 110px 90px;
+}
+.contacts-conteiner {
+  margin-left: 40px;
+  margin-top: 60px;
+  margin-right: 40px;
+}
+.contacts-title,
+.tech-skills-title,
+.soft-skills-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.contacts-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #707781;
+  /* text-decoration: underline; */
+}
+.contacts-link-type {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+.tech-skills-conteiner,
+.soft-skills-conteiner {
+  margin-left: 40px;
+  margin-top: 55px;
+  margin-right: 40px;
+}
+.tech-skills-item,
+.soft-skills-item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 15px;
+  color: #e4630e;
+}
+.tech-skills-text,
+.soft-skills-text {
+  color: #ffffff;
+}

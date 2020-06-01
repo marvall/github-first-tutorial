@@ -4,50 +4,81 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>My Resume</title>
   </head>
   <body>
     <!-- main containet -->
-    <div>
-      <aside>
-        <img src="img/photo.png" alt="My photo" />
+    <div class="wrapper">
+      <aside class="sidebar">
+        <img class="my-photo" src="img/photo.png" alt="My photo" />
         <!--  Contacts conteiner-->
-        <div>
-          <h3>Contacts</h3>
-          <div>C: <a href="tel:380631503507">+380 63 150 35 07</a></div>
+        <div class="contacts-conteiner">
+          <h3 class="contacts-title">Contacts</h3>
           <div>
-            E:
-            <a href="mailto:yariknarik.xxx@gmail.com"
+            <span class="contacts-link-type">C:</span>
+            <a class="contacts-link" href="tel:380631503507"
+              >+380 63 150 35 07</a
+            >
+          </div>
+          <div>
+            <span class="contacts-link-type">E:</span>
+            <a class="contacts-link" href="mailto:yariknarik.xxx@gmail.com"
               >yariknarik.xxx@gmail.com</a
             >
           </div>
         </div>
         <!-- Tech Skills conteiner-->
-        <div>
-          <h3>Tech Skills</h3>
+        <div class="tech-skills-conteiner">
+          <h3 class="tech-skills-title">Tech Skills</h3>
           <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>GIT</li>
-            <li>WebPack</li>
-            <li>JavaScript</li>
-            <li>React.js</li>
-            <li>Node.js</li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">HTML5</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">CSS3</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">GIT</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">WebPack</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">JavaScript</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">React.js</span>
+            </li>
+            <li class="tech-skills-item">
+              <span class="tech-skills-text">Node.js</span>
+            </li>
           </ul>
         </div>
         <!-- Soft Skills conteiner-->
-        <div>
-          <h3>Soft Skills</h3>
+        <div class="soft-skills-conteiner">
+          <h3 class="soft-skills-title">Soft Skills</h3>
           <ul>
-            <li>Scrum</li>
-            <li>Agile</li>
-            <li>GTD</li>
-            <li>Teamwork</li>
+            <li class="soft-skills-item">
+              <span class="soft-skills-text">Scrum</span>
+            </li>
+            <li class="soft-skills-item">
+              <span class="soft-skills-text">Agile</span>
+            </li>
+            <li class="soft-skills-item">
+              <span class="soft-skills-text">GTD</span>
+            </li>
+            <li class="soft-skills-item">
+              <span class="soft-skills-text">Teamwork</span>
+            </li>
           </ul>
         </div>
       </aside>
       <!-- about me container -->
-      <div>
+      <div class="about-me-conteiner">
         <!-- about me main container -->
         <div>
           <h2>Front-End Developer</h2>
