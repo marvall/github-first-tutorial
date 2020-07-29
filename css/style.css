@@ -1,43 +1,51 @@
-.header {
-  height: 100%;
-  background-color: peachpuff;
-}
-.some_header {
-  height: 200px;
-  display: block;
+.flex-parent {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  min-width: 1800px;
 }
-.menu {
-  height: 100px;
-  display: block;
-}
-.menu_item {
-  width: 120px;
-  height: 100px;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font: bold;
-  text-shadow: 1px 1px 5px white, 0 0 1em black;
-}
-.menu_item:hover {
-  background-color: cyan;
-}
-.footer {
-  height: 100%;
-  background-color: peachpuff;
+.flex-parent-second-lvl {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.flex-parent-third-lvl {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-parent-four-lvl {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 600px;
+  width: 600px;
+}
+.flex-parent-four-lvl:nth-child(even) {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 600px;
+  width: 600px;
+}
+.flex-child {
+  width: 300px;
+  height: 300px;
+  border: 2px dotted goldenrod;
+  box-sizing: border-box;
+}
+.flex-child:nth-child(3n) {
+  background-color: gray;
+}
+.flex-child:not(:nth-child(3n)) {
+  background-color: greenyellow;
+}
+.flex-child:nth-child(2n + 2) {
+  background-color: hotpink;
 }
 
-.content {
-  height: 100%;
-  background-color: peru;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.height {
+  height: 600px;
+}
+
+.long {
+  width: 600px;
 }
