@@ -32,6 +32,9 @@
   border: 2px dotted goldenrod;
   box-sizing: border-box;
 }
+.flex-child:hover {
+  transform: scale(1.2);
+}
 .flex-child:nth-child(3n) {
   background-color: gray;
 }
